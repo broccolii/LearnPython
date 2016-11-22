@@ -26,3 +26,34 @@ def printMax(a, b):
 printMax(4, 3)
 
 def say(message, times = 1): print message * times
+
+myArray = []
+myArray.append('an item')
+shoplist = ['apple', 'mange', 'carrot', 'banana']
+print 'I have',len(shoplist), 'items to purcharse.'
+shoplist.pop()
+print shoplist
+a = [1, 2, 3, 4]
+print a[0:2]
+
+
+
+name = "Swaroop"
+
+if name.find('warasdf'):
+	print 'yes'
+	
+if -1 == 1:
+	print '-1123'
+print name.find("asdfasdf")
+
+print '-------------------------'
+class Person: 
+	def sayHi(self):
+		print 'Hello, how are you?'
+
+p = Person()
+p.sayHi()
+
+import os
+print os.name
